@@ -6,7 +6,7 @@ import { ShoppingCart } from "phosphor-react";
 import "./navbar.css";
 
 
-const Navbar = () => {
+export const Navbar = () => {
   return (
     <div>
       <div className="navbar">
@@ -27,4 +27,4 @@ const Navbar = () => {
   );
 };
 
-export default Navbar;
+

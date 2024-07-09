@@ -1,7 +1,7 @@
 import "./App.css";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import { Navbar } from "./components/navbar";
-import { Footer } from './components/footer.jsx'
+import  Footer  from './components/footer.jsx'
 import { Shop } from "./pages/shop/shop";
 import { Contact } from "./pages/Contact/contact.jsx";
 import { Cart } from "./pages/cart/cart";

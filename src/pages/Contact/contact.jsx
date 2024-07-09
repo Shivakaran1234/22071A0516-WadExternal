@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import './Contact.css';
 
-const Contact = () => {
+export const Contact = () => {
   const [form, setForm] = useState({
     name: '',
     email: '',
@@ -80,4 +80,3 @@ const Contact = () => {
   );
 };
 
-export default Contact;
